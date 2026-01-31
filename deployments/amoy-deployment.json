@@ -1,0 +1,25 @@
+{
+  "network": "amoy",
+  "chainId": 80002,
+  "deployerAddress": "0xc6C3ea3c3c4bdAcCc03F0ACd56cA04Bcc5B96b44",
+  "contracts": {
+    "CredentialProofVerifier": {
+      "address": "0x354B948228F8aDDf048298cCa98261F14A58E722",
+      "explorerUrl": "https://amoy.polygonscan.com/address/0x354B948228F8aDDf048298cCa98261F14A58E722"
+    },
+    "AnonId": {
+      "address": "0xc92439aBb98bB8337076e6800904168E7fad9e7D",
+      "transactionHash": "0x000ad45c63bcbc833e5ff4f285793741e8bcba40c4ba59ef3deef2c63385cf2e",
+      "explorerUrl": "https://amoy.polygonscan.com/address/0xc92439aBb98bB8337076e6800904168E7fad9e7D"
+    }
+  },
+  "trustedIssuers": [
+    {
+      "address": "0xc6C3ea3c3c4bdAcCc03F0ACd56cA04Bcc5B96b44",
+      "name": "Deployer Account",
+      "transactionHash": "0x358ed744ff335c2f930771afe902daf394b6d4861c217198dad688c729d38c18"
+    }
+  ],
+  "timestamp": "2026-01-31T00:00:00.000Z",
+  "status": "deployed"
+}

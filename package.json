@@ -1,0 +1,51 @@
+{
+  "name": "anon-id",
+  "version": "1.0.0",
+  "description": "AnonID - Self-Sovereign Digital Identity System with Privacy-Preserving Verification",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "compile:circuit": "node scripts/compile-circuit.js",
+    "setup:circuit": "node scripts/setup-circuit.js",
+    "generate:proof": "node scripts/generate-proof.js",
+    "generate:circuit": "node scripts/generate-production-circuit.js",
+    "verify:proof": "node scripts/verify-proof.js",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js --network amoy",
+    "deploy:production": "node scripts/deploy-production.js",
+    "deploy:mumbai": "hardhat run scripts/deploy.js --network mumbai",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "deploy:polygon": "hardhat run scripts/deploy.js --network polygon",
+    "node": "hardhat node",
+    "verify": "hardhat run scripts/verify.js --network amoy",
+    "verify:mumbai": "hardhat run scripts/verify.js --network mumbai",
+    "verify:polygon": "hardhat run scripts/verify.js --network polygon",
+    "setup-demo": "hardhat run scripts/setup-demo.js --network amoy",
+    "setup-demo:mumbai": "hardhat run scripts/setup-demo.js --network mumbai",
+    "setup-demo:local": "hardhat run scripts/setup-demo.js --network localhost",
+    "gas-report": "REPORT_GAS=true hardhat test",
+    "coverage": "hardhat coverage",
+    "clean": "hardhat clean"
+  },
+  "keywords": [
+    "blockchain",
+    "identity",
+    "zero-knowledge",
+    "privacy",
+    "self-sovereign"
+  ],
+  "author": "AnonID Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.0",
+    "circom_runtime": "^0.1.28",
+    "circomlib": "^2.0.5",
+    "hardhat": "^2.19.0",
+    "snarkjs": "^0.7.6"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.1",
+    "dotenv": "^16.3.1"
+  }
+}
