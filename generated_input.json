@@ -1,9 +1,0 @@
-{
-  "credentialData": "{\"university\":\"MIT\",\"studentId\":\"demo_student_123\",\"degree\":\"Computer Science\",\"graduationYear\":2023,\"gpa\":3.8,\"timestamp\":1769780404}",
-  "salt": "0x5293969bf37d66b248211297f708d1ee6b7fb984fb4b5f5fb2bbfb802a16746f",
-  "issuedAt": "1769694004",
-  "commitment": "0xff79d730a1dafcd63da4773b793c3f82662440f357177e2f13e6492ed6151bc5",
-  "issuerAddress": "0x1234567890123456789012345678901234567890",
-  "currentTimestamp": "1769780404",
-  "isRevoked": "0"
-}
